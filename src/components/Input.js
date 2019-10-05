@@ -5,7 +5,7 @@ const Input = ({ id, label, type, onChange, value }) => (
     <label htmlFor={id}>{label}</label>
     <input
       id={id}
-      type={type} 
+      type={type}
       value={value}
       onChange={onChange} />
   </div>

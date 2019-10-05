@@ -30,7 +30,7 @@ describe("<Button />", () => {
         isEnabled: true,
         children: "Hello, World"
       };
-  
+
       const component = shallow(<Button {...props} />);
       expect(component.exists('button'));
       const button = component.find('button');
